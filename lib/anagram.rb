@@ -11,7 +11,7 @@ class Anagram
     possible_anagrams_ary.each do |w|
       if w.split("").sort == word.split("").sort
         matches << self
-      end
+      # end
       matches
   end
 
