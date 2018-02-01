@@ -10,7 +10,7 @@ class Anagram
     matches = []
     possible_anagrams_ary.each do |w|
       if w.split("").sort == @word.split("").sort
-        matches << self.word
+        matches << w.word
       end
     end
       matches
