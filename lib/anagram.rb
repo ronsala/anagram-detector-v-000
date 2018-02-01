@@ -12,6 +12,7 @@ class Anagram
       if w.split("").sort == word.split("").sort
         matches << self
       end
+    end
       matches
   end
 
